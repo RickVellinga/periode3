@@ -1,32 +1,4 @@
 
-Opgaven week 3
-opgave 1.
-
-Maak een object persoon aan met de volgende properties:
-
-voornaam
-achternaam
-tussenvoegsel
-Het object heeft nog geen values voor de properties.
-Geef aan de properties van het object jouw gegevens.
-
-Schrijf een functie die na aanroepen jouw volledige naam teruggeeft.
-
-Maak ook een method in het object aan die precies hetzelfde doet als bovenstaande functie.
-
-Schrijf een JavaScript programma waarbij je de resultaten van de functie en de method in een HTML pagina laat zien.
-
-opgave 2.
-
-Maak een object boek aan.
-Geef het object minimaal 5 properties die je ook direct een waarde geeft.
-bijvoorbeeld het ISBN nummer
-Titel van het boek
-De bovenstaande properties tellen niet mee voor de 5 die je zelf moet bedenken.
-Geef het object een method waarmee je de properties van het boek laat zien.
-Geef het object een method waarmee je de titel van het boek weergeeft in hoofdletters.
-opgave 3.
-
 Maak een object auto aan volgens de constructor met function methode met de volgende properties.
 Merknaam
 Model

@@ -16,13 +16,13 @@ function KamerObject(checkInTime, checkOutTime, minCheckOut)  {
 
 let kamerReserved = new KamerObject(0, 0, 1000);
 
-// let kamerReserved = {'checkInTime': 0, 'checkOutTime': 0, 'minCheckOut': 5000};
+let kamerReserved = {'checkInTime': 0, 'checkOutTime': 0, 'minCheckOut': 5000};
 
 
 
 let message =  {
     checkIn :'U kunt over 10 minuten weer uitchecken',
-    validCheckIn : 'Dank U wel voor Uw bezoek.',
+    validCheckIn : 'Dank U wel voor Uw bezoek.',-
     unvalidCheckOut : 'U kunt nog niet uitchecken!'
 }
 
