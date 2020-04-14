@@ -1,12 +1,11 @@
 // Onderstaande functies zijn de callBack functies voor de
 // createGetRequest functie
-
-function cityOfChicago (json) {
-    console.log(json);
+function cityOfChicago(json) {
+  console.log(json);
 }
 
-function covid19 (json) {
-    console.log(json);
+function covid19(json) {
+  console.log(json);
 }
 
 // var url = 'https://data.cityofchicago.org/resource/f7f2-ggz5.json?'
@@ -23,4 +22,3 @@ function covid19 (json) {
 //          De xhr tab heeft subtabs, check deze allemaal
 //          In deze subtabs staat veel informatie voor je
 //          als je call bijvoorbeeld geen antwoord heeft
-
