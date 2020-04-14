@@ -1,16 +1,19 @@
-// Pas het script aan volgens de richtlijnen
-var palet = new Array('wit','blauw','groen','rood','zwart');
-document.write('<br />palet is nu: ' + palet);
+// Een array die kleuren heeft + een document.write die de kleuren laat zien
+const palet = new Array('wit ','blauw ','groen ','rood ','zwart');
+document.write('<br />Palet is nu: ' + palet);
 
-var nieuwekleur = prompt('Typ een nieuwe kleur in');
+// Hier komt een prompt die vraagt om een kleur erin te zetten.
+const nieuwekleur = prompt('Typ een nieuwe kleur in');
 
-// Stop de nieuwekleur ACHTERAAN in de palet array
-document.write('<br />palet is nu: ' + palet);
+// Dit zet de nieuwe kleur achteraan de array
+document.write('<br />Palet is nu: ' + palet + ' , '  + nieuwekleur);
 
-// Stop de nieuwekleur VOORAAN in de palet array
-var nieuwekleur = prompt( 'Typ een nieuwe kleur in:');
+// Hier komt een prompt die vraagt om een kleur erin te zetten.
+const nieuwekleur = prompt( 'Typ een nieuwe kleur in:');
 
-document.write('<br />palet is nu: ' + palet);
-// Sorteer de array
+// Dit zet de nieuwe kleur vooraan in de lijst.
+document.write('<br />Palet is nu: ' + nieuwekleur + ' , ' + palet);
 
-document.write('<br />palet is nu: ' + palet);
+// Dit sorteert de lijst
+document.write('<br />Palet is nu: ' + palet);
+palet.sort();
