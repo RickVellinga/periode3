@@ -1,8 +1,3 @@
-// TODO:    Haal alle fouten uit de scripts
-//          Fouten zijn niet alleen beperkt tot var, let o const!
-//          maar ook bijvoorbeeld de afsluiting van een statement
-//          een komma die verkeerd staat, of variabelen die niet
-//          bekend zijn.
 
 const results = [];
 const item = [];
